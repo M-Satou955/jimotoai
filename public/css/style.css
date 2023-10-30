@@ -210,7 +210,7 @@ input[type="file"] {
 .btn-orange:active {
     box-shadow: none;
     background-color: #ffffff;
-    border:  1px solid #fdc709a3;
+    border: 1px solid #fdc709a3;
 }
 
 .btn-green {
@@ -228,7 +228,8 @@ input[type="file"] {
 .btn-green:active {
     box-shadow: none;
     background-color: #ffffff;
-    border: linear-gradient(rgba(18, 241, 40, 1), rgba(0, 227, 174, 1)) 1px solid;
+    border: linear-gradient(rgba(18, 241, 40, 1), rgba(0, 227, 174, 1)) 1px
+        solid;
 }
 
 .btn-delete {
@@ -316,7 +317,7 @@ input[type="file"] {
     background-color: #d9d9d9;
     border-radius: 150px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    width:  200px;
+    width: 200px;
 }
 
 .btn-gray:active {
@@ -372,12 +373,11 @@ input[type="file"] {
     border: #f5cf7d 0.5px solid;
 }
 
-textarea{
+textarea {
     padding: 4px 0 4px 10px;
     border-radius: 10px;
     border: #f5cf7d 0.5px solid;
 }
-
 
 .form::placeholder {
     opacity: 75%;
@@ -521,7 +521,7 @@ textarea{
 .header-btn {
     margin-top: 8px;
 }
-.header-btn  a{
+.header-btn a {
     margin: 0 auto 1rem auto;
 }
 
@@ -579,7 +579,6 @@ textarea{
 footer {
     height: 100px;
 }
-
 
 /* top */
 .top-logo {
@@ -949,7 +948,7 @@ footer {
 .red {
     color: red;
 }
-.syoukaijou-pic img{
+.syoukaijou-pic img {
     max-width: 100px;
     max-height: 100px;
     margin-top: 3%;
@@ -1089,7 +1088,6 @@ footer {
 .syoukaijou-honbun {
     font-size: 1.2rem;
 }
-
 
 .syoukaijou-pics {
     display: grid;
@@ -1469,10 +1467,10 @@ footer {
 }
 
 /* start 投稿した紹介状、いいね、行ったよ一覧(post_all_list)*/
-.all-list {
+/* .all-list {
     display: flex;
     justify-content: center;
-}
+} */
 
 .post-list-header {
     display: flex;
@@ -1845,12 +1843,12 @@ footer {
     .janru-area-search {
         gap: 8px;
     }
-    .janru-search ,
-    .map-search  {
+    .janru-search,
+    .map-search {
         width: 33%;
     }
     .janru-search a,
-    .map-search  a{
+    .map-search a {
         width: 100%;
         font-weight: 100;
         font-size: 0.6rem;
@@ -1886,7 +1884,6 @@ footer {
     .header-mypage {
         margin-bottom: 1rem;
     }
-
 
     /* 共通 */
     .serch-ittem {
@@ -1989,15 +1986,15 @@ footer {
         display: block;
         margin: 0 auto 1rem auto;
     }
-    .profile-botom-btn a ,
+    .profile-botom-btn a,
     .profile-botom-btn input,
-    .profile-botom-btn div{
+    .profile-botom-btn div {
         margin: 0 auto 1rem auto;
     }
     .profile-botom-btn div {
         text-align: center;
     }
-/* 紹介状作成画面 */
+    /* 紹介状作成画面 */
     .syoukaijou-jyanru-area {
         grid-template-columns: 1fr;
     }
@@ -2005,10 +2002,10 @@ footer {
         display: block;
     }
     .syoukaijou-pic-button input,
-    .syoukaijou-bottom div{
+    .syoukaijou-bottom div {
         margin: 1rem auto;
     }
-/* 紹介状発見 */
+    /* 紹介状発見 */
     .syoukaijou-card {
         gap: 0.5rem;
     }
@@ -2022,7 +2019,7 @@ footer {
         margin: 0 5% 2rem 5%;
     }
     .preview-bottom {
-        margin:  0 auto;
+        margin: 0 auto;
     }
     .preview-bottom-text {
         text-align: center;
@@ -2076,4 +2073,3 @@ footer {
         max-width: 80vw;
     }
 }
-
